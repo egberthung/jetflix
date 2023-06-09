@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesignup.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/kenia');
+        </style>
+        <script src="script.js"></script>
+        <title>Jetflix</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navigation">
+                <a href="index.html"><div class="brand">Jetflix</div></a>
+            </nav>
+        </header>
+        <div class="container">
+            <form action="signin.html"  onsubmit="validateform(event)" id="register">
+                <br><br><br>
+                <div class="first">
+                    <h1>Sign up</h1>
+                    <h3 id="req"></h3>
+                    <br>
+                    <input type="text" placeholder="Username" id="username">
+                    <input type="password" placeholder="Password" id="password">
+                    <input type="password" placeholder="Confirm Password" id="confirmpassword">
+                </div>
+                <div class="date">
+                    <span>Date of birth:</span>
+                    <div class="inputan">
+                        <input type="date" placeholder="Date of birth" id="date">
+                    </div>
+                </div>
+                <div class="gender">
+                    <span>Gender:</span>
+                    <div class="male">
+                    <input type="radio" name="gendery" id="malegend">
+                        <label for="malegend">Male</label>
+                    </div>
+                    <div class="female">
+                        <input type="radio" name="gendery" id="femalegend">
+                        <label for="femalegend">Female</label>
+                    </div>
+                </div>
+                <div class="agreement">
+                    <input type="checkbox" name="agree" id="policy">
+                    <label for="policy"> Agree with our term & conditions</label>
+                </div>
+                <button type="submit">Sign up</button>
+                <p>
+                    Already have account? <a href="signin.html">sign in</a>
+                </p>
+            </form>
+        </div>
+    </body>
+</html>

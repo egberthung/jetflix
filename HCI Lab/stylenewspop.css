@@ -1,0 +1,211 @@
+:root{
+    background-color: #282828;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'kenia',sans-serif,'Roboto slab';
+    text-transform: capitalize;
+    outline: none;border: none;
+    transition: .2s linear;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+}
+
+header{
+    position:fixed;
+    top: 0;left:0;right:0;
+    background-color: #282828;
+    padding:0.4rem 30px;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    z-index: 1000;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,0);
+}
+
+header .atap{
+    flex-direction: row;
+    display: flex;
+}
+
+.atap .navigation{
+    display: flex;
+    padding-top: 8px;
+    justify-content: inline;
+    margin-right: -90px;
+}
+.atap .brand{
+    color: red;
+    font-size: 4.8rem;
+    padding: 12px 30px 0 0;
+}
+
+.atap .navigation a{
+    font-size: 2rem;
+    font-family: 'roboto slab';
+    font-weight: bold;
+    justify-self: unset;
+    margin-right: 30px;
+    color: rgb(134, 133, 133);
+    padding-top:22px;
+}
+
+.atap .navigation .puti{
+    color: white;
+}
+
+header .navigation a:hover{
+    color:#ffff;
+}
+
+header .kids {
+    color:rgb(134, 133, 133);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 21px;
+    left: 100%;
+    cursor: pointer;
+}
+
+header .kids :hover{
+    color: white;
+}
+
+.top5{
+    margin: 80px 50px -10px 35px;
+}
+.top5 h1{
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.movies{
+    display: flex;
+}
+
+h2 span{
+    color: #000000;
+    background-color: rgb(218, 218, 218);
+    font-family: 'roboto slab';
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+.movies h2{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: 'roboto slab';
+}
+
+h2 a .btn{
+    width: 80px;
+    height: 25px;
+    margin-top: 15px;
+    background-color: #e32d2e;
+    cursor: pointer;
+}
+
+h2 p .genre{
+    font-size: 18px;
+}
+
+h2 p{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'roboto';
+}
+
+hr{
+    border: 1px solid;
+    color:rgb(77, 77, 77) ;
+    margin: 15px;
+}
+
+.footerjet{
+    margin:10px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.support h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+    font-family: 'roboto slab';
+    font-weight:bold;
+    padding-left: 80px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.follow{
+    padding-top: 20px;
+}
+
+.footerjet span{
+    font-size: 15px;
+    color:white;
+    font-family: 'roboto slab';
+    font-weight: 600;
+}
+
+.logo{
+    padding-right: 90px;
+    color: red;
+    font-size: 4.8rem;
+}
+
+.btn:hover{
+    background-color: #d2d2d2;
+}
+
+@media (max-width:768px) {
+    .atap .brand{
+        font-size: 3.8rem;
+    }
+    .atap .navigation a{
+        font-size: 1.4rem;
+    }
+    header .kids{
+        font-size: 1.4rem;
+    }
+    .home .content h3{
+        font-size:3.5rem;
+    }
+
+    .content{
+        margin: 6rem 0 0 0;
+    }
+
+    .home .content span{
+        font-size: 1.5rem;
+    }
+
+    .allmovies h2{
+        font-size: 20px;
+    }
+
+    .footerjet h3{
+        font-size: 14px;
+        margin-right:15px ;
+    }
+
+    .movies p{
+        font-size: 45%;
+    }
+
+    img{
+        height: 140px;
+        width: 100px;
+    }
+}

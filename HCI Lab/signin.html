@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesignin.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/kenia');
+        </style>
+        <script src="script.js"></script>
+        <title>Jetflix</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navigation">
+                <a href="index.html"><div class="brand">Jetflix</div></a>
+            </nav>
+        </header>
+        <div class="tester">
+            <span>username: Tester</span>
+            <span>Password: Tester123</span>
+        </div>
+        <div class="container">
+            <form action="home.html" onsubmit="validatelog(event)" id="login">
+                <br><br><br>
+                <div class="first">
+                    <h1>Sign in</h1>
+                    <h3 id="req"></h3>
+                    <br>
+                    <input type="text" placeholder="Username" id="username1">
+                    <input type="password" placeholder="Password" id="password1">
+                </div>
+                <button type="submit">Sign in</button>
+                <p>
+                    Don't have account? <a href="signup.html">sign up</a>
+                </p>
+            </form>
+        </div>
+    </body>
+</html>

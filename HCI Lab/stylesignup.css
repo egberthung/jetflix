@@ -1,0 +1,150 @@
+:root{
+    background-color: #282828;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'kenia',sans-serif,'Roboto slab';
+    outline: none;border: none;
+    transition: .2s linear;
+}
+
+header .brand{
+    color: red;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 3rem;
+}
+
+header .navigation{
+    display: flex;
+    justify-content: inline;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto slab';
+    align-items: center;
+    margin-top: 60px;
+}
+
+form{
+    background-color: #ebebeb;
+    height: 800px;
+    width: 450px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'roboto slab';
+    margin: -20px 0 10px 0;
+}
+.first h1{
+    font-family: 'sans-seriff';
+    padding-bottom: 10px;
+}
+.first input{
+    width:350px;
+    height: 40px;
+    margin: 5px;
+    padding-left: 20px;
+    font-size: large;
+    font-family:'roboto slab';
+    color: #888888;
+}
+
+.first h3{
+    color: red;
+    font-family: 'roboto slab';
+    font-size: small;
+}
+
+.date{
+    display: flex;
+    margin:5px 50px 10px 50px;
+    font-size: x-large;
+    gap: 10px;
+}
+
+.date span{
+    font-size: 19px;
+    font-family: 'roboto slab';
+    color: #888888;
+    padding-top: 10px;
+}
+
+.date input{
+    height: 40px;
+    width: 236px;
+    font-size: large;
+    font-family: 'roboto';
+    color: #888888;
+    padding-left: 20px;
+}
+
+.gender{
+    display: flex;
+    margin:5px 80px 10px 50px;
+    font-size: 19px;
+    justify-content: space-between;
+}
+
+.gender span{
+    font-family: 'roboto-slab';
+    color:#888888;
+}
+.gender label{
+    font-family: 'roboto slab';
+    color: #888888;
+}
+
+.agreement{
+    display: flex;
+    margin:16px 80px 5px 50px;
+    font-size: large;
+    gap:10px;
+}
+
+.agreement label{
+    font-family: 'roboto slab';
+    color: #888888;
+}
+
+button{
+    background-color: red;
+    font-size: x-large;
+    font-family: 'roboto slab';
+    color: white;
+    margin:15px 80px 5px 160px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: #9C2121;
+}
+
+form p{
+    font-family: 'roboto slab';
+    color: #888888;
+    margin:15px 80px 5px 120px;
+}
+form p a{
+    font-family: 'roboto slab';
+    color: blue;
+    font-weight: bold;
+}
+
+form p a:hover{
+    color: rgb(119, 30, 120);
+}
